@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <% include templates/head.ejs %>
 </head>
 
 <body>
   <% include templates/header.ejs %>
-  <h1><%= title %></h1>
 
-  <% include templates/footer.ejs %>
-  <% include scripts.ejs %>
+  <div class='left-shifted-to-dashboard'>
+    <h1> <%= title %> </h1>
+    <% include templates/listOfItems.ejs %>
+    <% include templates/footer.ejs %>
+  </div>
+
+  <% include templates/scriptLinks.ejs %>
 </body>
 
 </html>

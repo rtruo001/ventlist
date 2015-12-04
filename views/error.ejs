@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <% include templates/errorRouting.ejs %>
+  <% include templates/errorRoutingHead.ejs %>
 </head>
 
 <body>
   <% include templates/header.ejs %>
-  <h1><%= error %></h1>
+  <div class='left-shifted-to-dashboard'>
+    <h1><%= error %></h1>
 
-  <% include templates/footer.ejs %>
-  <% include scripts.ejs %>
+    <% include templates/footer.ejs %>
+  </div>
+
+  <% include templates/scriptLinks.ejs %>
 </body>
 
 </html>
-
-
-

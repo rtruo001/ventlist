@@ -1,0 +1,105 @@
+/* Top nav bar */
+.top-header {
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  left: 200px;
+
+  background-color: #FFFFFF;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+}
+
+.input-products-location-submit-div {
+  width: 58%;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.input-bar {
+  width: 40%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  background-color: #FAFAFA;
+  border: 1px solid #AAAAAA;
+  outline: none;
+
+  -webkit-transition: border-color 0.5s, background-color 0.5s;
+  -moz-transition: border-color 0.5s, background-color 0.5s;
+  -0-transition: border-color 0.5s, background-color 0.5s;
+  -ms-transition: border-color 0.5s, background-color 0.5s;
+  transition: border-color 0.5s, background-color 0.5s;
+}
+
+.input-bar:hover {
+  border-color: #7777FF;
+}
+
+.input-bar:focus {
+  border-color: #7777FF;
+  background-color: #F4F4FF;
+}
+
+.input-submit-button{
+  width: 10%;
+  height: 44px;
+  font-size: 15px;
+  color: white;
+  background-color: #7777FF;
+  border: 1px solid #7777FF;
+  outline: none;
+}
+
+.input-submit-button:active {
+  background-color: #6565FF;
+}
+
+.login-signup-div {
+  width: auto;
+  height: auto;
+
+  font-size: 15px;
+  color: black;
+
+  display: inline-block;
+
+  padding: 0px;
+  padding-top: 23px;
+  padding-bottom: 25px;
+
+  position: relative;
+  float: right;
+}
+
+/* The div for the login and signup */
+.login-signup-div a {
+  padding: 10px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  border-left: 1px solid #AAAAAA;
+  border-right: 1px solid #AAAAAA;
+  text-decoration: none;
+}
+
+/* Preparing the animation for the login/signup buttons */
+.login-button,
+.signup-button {
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s;
+  -0-transition: background-color 0.5s, color 0.5s;
+  -ms-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* When hovering over the login or signup button */
+.login-button:hover,
+.signup-button:hover {
+  background-color: #7777FF;
+  color: white;
+}  
+
